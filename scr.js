@@ -2,6 +2,9 @@
 
 $(function(){
   $("#se").get(0).play();
+  
+ $(window).on('popstate', function(e)) 
+  
 });
 
 
